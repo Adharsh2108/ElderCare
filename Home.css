@@ -1,0 +1,103 @@
+/* General Page Styling */
+.home-container {
+    text-align: center;
+    margin: 50px auto;
+    width: 80%;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Branding */
+  .brand {
+    color: royalblue;
+    font-weight: bold;
+  }
+  
+  .subtitle {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  /* Announcement Tabs */
+  .announcement-container {
+    margin: 30px auto;
+    padding: 20px;
+    background: #f5f5f5;
+    border-radius: 10px;
+    width: 60%;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .tabs button {
+    padding: 12px 20px;
+    border: none;
+    background: #ddd;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .tabs button.active {
+    background: royalblue;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .announcement-content {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  /* Services & Volunteer Sections */
+  .info-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 40px;
+  }
+  
+  .services-section, .volunteer-section {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 40%;
+  }
+  
+  .services-section h2, .volunteer-section h2 {
+    font-size: 22px;
+    color: royalblue;
+  }
+  
+  .services-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .services-section li {
+    font-size: 18px;
+    margin: 8px 0;
+  }
+  
+  /* Volunteer Section */
+  .volunteer-btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background: royalblue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .volunteer-btn:hover {
+    background: darkblue;
+  }
+  

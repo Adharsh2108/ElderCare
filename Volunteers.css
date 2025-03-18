@@ -1,0 +1,68 @@
+.volunteer-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .signup-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background: royalblue;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .signup-btn:hover {
+    background: darkblue;
+  }
+  
+  .volunteer-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .volunteer-form label {
+    margin: 10px 0 5px;
+    font-size: 16px;
+  }
+  
+  .volunteer-form input {
+    padding: 8px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .error {
+    border-color: red;
+  }
+  
+  small {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  .submit-btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background: green;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .submit-btn:hover {
+    background: darkgreen;
+  }
+  
+  .success-message {
+    color: green;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
